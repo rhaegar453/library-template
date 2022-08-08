@@ -1,6 +1,6 @@
 {
-  "name": "library-template",
-  "version": "1.0.0",
+  "name": "@rhaegar453/library-template",
+  "version": "v1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,11 @@
     "build:js": "rollup -c rollup.config.js",
     "build:types": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*\""
+  },
+  "files": ["dist"],
+  "typings": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [],
   "author": "Shivaraj Bakale",
