@@ -1,2 +1,1 @@
-export * as Button from './components/atoms/button'
-
+export * as Button from './components/atoms/button';
