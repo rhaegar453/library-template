@@ -17,6 +17,7 @@ This creates a new repository with all the things necessary for you to get start
 2. Under publishConfig, change the registry to suit your registry, leave it as is if you'd want to use github packages or change it to npm registry url if you're keen on using npm registry. 
 3. Change the details provided in the .npmrc file to match your repository details. 
 4. Change the details in the publish github workflow to suit your details
+5. Create a personal access token and add it to your github secret with the label PA_TOKEN
 
 
 
